@@ -1,16 +1,17 @@
 <html>
     <head>
-        <script src = "https://aframe.io/releases/1.3.0/aframe.min.js">
+        <script src = "https://aframe.io/releases/1.2.0/aframe.min.js">
         
         </script>   
     </head>
     <body>
         <a-scene>
+            <a-entity light="type: ambient; color: #fffca2;"></a-entity>
 <a-entity position="0 -7.5 -10">
     <a-entity scale="1 0 1" animation="property: scale; to: 1 1 1; dur: 3333; loop: true;">
 <a-cylinder position="0 9 0" radius = "3.5" height="7" color="red" open-ended="true" side="double" scale="1 1.25 1" animation="property: scale; to: 1 0 1; dur: 3333; loop: true;"></a-cylinder>
 <a-cylinder position="0 -9 0" radius = "3.5" height="7" color="black" open-ended="true" side="double" scale="1 1.25 1" animation="property: scale; to: 1 0 1; dur: 3333; loop: true;"></a-cylinder>
-</a-entity>
+    </a-entity>
     <a-entity scale="0.9 0 0.9" animation="property: scale; to: 1 1 1; dur: 3333; loop: true;">
     <a-cylinder position="0 9 0" radius = "3.5" height="7" color="#fa6400" open-ended="true" side="double" scale="0.9 1 0.9" animation="property: scale; to: 0.9 0 0.9; dur: 3333; loop: true;"></a-cylinder>
     <a-cylinder position="0 -9 0" radius = "3.5" height="7" color="#572f0f" open-ended="true" side="double" scale="0.9 1 0.9" animation="property: scale; to: 0.9 0 0.9; dur: 3333; loop: true;"></a-cylinder>
@@ -35,7 +36,27 @@
     <a-cylinder position="0 9 0" radius = "3.5" height="7" color="violet" open-ended="true" side="double" scale="0.4 1 0.4" animation="property: scale; to: 0.4 0 0.4; dur: 3333; loop: true;"></a-cylinder>
     <a-cylinder position="0 -9 0" radius = "3.5" height="7" color="#5f4962" open-ended="true" side="double" scale="0.4 1 0.4" animation="property: scale; to: 0.4 0 0.4; dur: 3333; loop: true;"></a-cylinder>
 </a-entity>
+<a-entity scale="0.3 0 0.3" animation="property: scale; to: 1 1 1; dur: 3333; loop: true;">
+    <a-cylinder position="0 9 0" radius = "3.5" height="7" color="magenta" open-ended="true" side="double" scale="0.3 1 0.3" animation="property: scale; to: 0.3 0 0.3; dur: 3333; loop: true;"></a-cylinder>
+    <a-cylinder position="0 -9 0" radius = "3.5" height="7" color="#410038" open-ended="true" side="double" scale="0.3 1 0.3" animation="property: scale; to: 0.3 0 0.3; dur: 3333; loop: true;"></a-cylinder>
 </a-entity>
+<a-entity scale="0.2 0 0.2" animation="property: scale; to: 1 1 1; dur: 3333; loop: true;">
+    <a-cylinder position="0 9 0" radius = "3.5" height="7" color="pink" open-ended="true" side="double" scale="0.2 1 0.2" animation="property: scale; to: 0.2 0 0.2; dur: 3333; loop: true;"></a-cylinder>
+    <a-cylinder position="0 -9 0" radius = "3.5" height="7" color="#a58ca1" open-ended="true" side="double" scale="0.2 1 0.2" animation="property: scale; to: 0.2 0 0.2; dur: 3333; loop: true;"></a-cylinder>
+</a-entity>
+<a-entity scale="0.1 0 0.1" animation="property: scale; to: 1 1 1; dur: 3333; loop: true;">
+    <a-cylinder position="0 9 0" radius = "3.5" height="7" color="grey" open-ended="true" side="double" scale="0.1 1 0.1" animation="property: scale; to: 0.1 0 0.1; dur: 3333; loop: true;"></a-cylinder>
+    <a-cylinder position="0 -9 0" radius = "3.5" height="7" color="#3d3d3d" open-ended="true" side="double" scale="0.1 1 0.1" animation="property: scale; to: 0.1 0 0.1; dur: 3333; loop: true;"></a-cylinder>
+</a-entity>
+<a-entity position="0 18 0" animation="property: position; to: 0 9 0; dur: 3333; loop: true;">
+    <a-sphere color="white" radius="0.75" position="0 9 0" animation="property: position; to: 0 18 0; dur: 33333; dir: reverse; loop: true; easing: easeInOutSine;"></a-sphere>
+</a-entity>
+
+</a-entity>
+
+
+    
+
 </a-scene>
     </body>
 </html>
